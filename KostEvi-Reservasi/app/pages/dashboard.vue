@@ -1,11 +1,15 @@
 <template>
   <div>
-    <NuxtPage />
+    <NavbarDashboard/>
   </div>
 </template>
 
-<script lang="ts">
+<script>
 export default {
-  
+
 }
 </script>
+
+<style>
+
+</style>
