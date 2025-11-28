@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-
+        
         <div class="hero bg-base-300 min-h-screen" id="fasilitas">
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div class="carousel rounded-box w-full max-w-md h-64 sm:h-80 lg:h-[400px] lg:max-w-[600px] lg:w-full shadow-2xl0">
@@ -80,7 +80,7 @@
                         Jangan lewatkan kesempatan untuk tinggal di Kost Evi yang nyaman dan lengkap. Hubungi kami sekarang untuk informasi lebih lanjut dan pemesanan kamar!
                     </p>
                     <a href="https://wa.me/6281256839818">
-                        <button class="btn btn-primary">Kontak via Whatsapp</button>
+                        <button class="btn btn-neutral">Kontak via Whatsapp</button>
                     </a>
                 </div>
             </div>
@@ -90,7 +90,7 @@
     </div>
 </template>
 
-<script>
+<script setup>
 useHead({
   title: 'Kost Evi Singkawang',
   htmlAttrs: {
@@ -106,10 +106,6 @@ useSeoMeta({
   ogDescription: 'Hunian Kost Eksklusif di Singkawang dengan Fasilitas Lengkap dan Nyaman',
   ogImage: '/logoKost.png',
 })
-
-export default {
-
-}
 </script>
 
 <style>
